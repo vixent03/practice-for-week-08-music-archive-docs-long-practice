@@ -39,6 +39,14 @@ module.exports = (sequelize, DataTypes) => {
       });
     }
 
+    static async findAllByTrackNumber(trackNumber) {
+      return await Song.findAll({
+        where: {
+          trackNumber
+        }
+      });
+    }
+
     static async findById(id) {
       const { Artist, Album } = sequelize.models;
 

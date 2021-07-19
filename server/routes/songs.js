@@ -26,6 +26,14 @@ router.get('/albums/:albumId/songs', asyncHandler(async (req, res) => {
   return res.json(songs);
 }));
 
+router.get('/trackNumbers/:trackNumber/songs', asyncHandler(async (req, res) => {
+  const { trackNumber } = req.params;
+
+  const songs = await db.Song.findAllByTrackNumber(Number(trackNumber));
+
+  return res.json(songs);
+}));
+
 router.get('/artists/:artistId/songs', asyncHandler(async (req, res) => {
   const { artistId } = req.params;
 

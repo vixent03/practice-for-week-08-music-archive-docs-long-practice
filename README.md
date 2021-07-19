@@ -252,6 +252,21 @@ Response components:
 - Headers:
 - Body:
 
+### Get all songs of a specified trackNumber
+
+Request components:
+
+- Method:
+- URL:
+- Headers:
+- Body:
+
+Response components:
+
+- Status code:
+- Headers:
+- Body:
+
 ### Get a specific song's details based on songId
 
 Request components:
