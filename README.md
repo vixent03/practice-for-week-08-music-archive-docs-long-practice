@@ -74,16 +74,28 @@ you as an example.
 
 Request components:
 
-- Method:
-- URL:
-- Headers:
-- Body:
+- Method: GET
+- URL: /artists
+- Headers: none
+- Body: none
 
 Response components:
 
-- Status code:
+- Status code: 200
 - Headers:
-- Body:
+    - Content-Type: application/json
+- Body: information about all the artists
+  ```json
+  [
+    {
+      "name": "Dani California",
+      "lyrics": "...",
+      "trackNumber": 1,
+      "songId": 1,
+      "albumId": 1
+    }
+  ]
+  ```
 
 Test this in Postman or by using `fetch` in the browser.
 
