@@ -266,6 +266,18 @@ Response components:
 
 ### Get all songs of a specified trackNumber
 
+**Note: This one is meant to be a little more challenging, but should still
+follow a similar pattern to those above.**
+
+Can you see a pattern between this endpoint and the two previous endpoints?
+
+Hint: Think of how you solved getting all songs by a specific artist and by a
+specific album. What is resource that you wanted to get back for those
+endpoints? What information was that resource constrained by for each of those
+endpoints? Now think about getting all songs by a specific `trackNumber`.
+What is the resource you want to get? What information is the resource
+constrained by for this endpoint?
+
 Request components:
 
 - Method:
