@@ -88,11 +88,8 @@ Response components:
   ```json
   [
     {
-      "name": "Dani California",
-      "lyrics": "...",
-      "trackNumber": 1,
-      "songId": 1,
-      "albumId": 1
+      "artistId": 1,
+      "name": "Red Hot Chili Peppers"
     }
   ]
   ```
