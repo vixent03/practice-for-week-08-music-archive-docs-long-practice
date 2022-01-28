@@ -26,11 +26,11 @@ Below is a list of all the resources for this music archive server.
 - artists:
   - artistId: unique identifier
   - name
-- album:
+- albums:
   - albumId: unique identifier
   - name
   - artistId: of the artist that released the album
-- song:
+- songs:
   - songId: unique identifier
   - name
   - lyrics
